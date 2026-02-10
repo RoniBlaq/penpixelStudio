@@ -1,0 +1,44 @@
+'use client'
+import emailjs from '@emailjs/browser'
+import { useRef } from 'react'
+
+export default function Contact() { 
+     const formRef = useRef(null);
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm(
+            "service_0hjlrlr",
+            "template_b9dnozd",
+             formRef.current,
+             "acidpvQS8ynKSoArB"
+        )
+        .then(() => {
+          alert('Booking sent successfully!')
+        })
+        .catch((error) => {
+            console.log(error)
+        })
+    }
+ return ( 
+ <section id='Contact' className="min-h-screen flex items-center justify-center px-6">
+ <form ref={formRef} onSubmit={sendEmail} className="w-full max-w-lg space-y-6">
+ <h2 className="text-3xl font-serif">
+Book a Session
+</h2>
+ <input name="name" type="text" className="w-full bg-transparent border border-white/20 p-3 rounded-lg" placeholder="Your Name" required /> 
+
+ <input name="email" type="email"  className="w-full bg-transparent border border-white/20 p-3 rounded-lg" placeholder="Email Address" required />
+
+ <input name="phone" type="tel"  className="w-full bg-transparent border border-white/20 p-3 rounded-lg" placeholder="Phone No" required />
+
+ <input name="session" type="text"  className="w-full bg-transparent border border-white/20 p-3 rounded-lg" placeholder="Session..eg Birthday shoot, wedding...." required />
+
+ <textarea name="message" className="w-full bg-transparent border border-white/20 p-3 rounded-lg" placeholder="Tell us about your event" required />
+ <button type="submit"  className="w-full bg-white text-black py-3 rounded-full"> 
+ Send Request </button>
+ </form>
+ </section>
+ )
+}
