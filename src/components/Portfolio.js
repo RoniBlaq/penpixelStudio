@@ -26,7 +26,7 @@ export default function Portfolio() {
 
           >
 
-            <div className="relative h-72 md:h-[420px] rounded-[220px] overflow-hidden">
+            <div className="relative h-80 md:h-[420px] rounded-[220px] overflow-hidden">
               <Image
                 src={project.image}
                 alt={project.title}

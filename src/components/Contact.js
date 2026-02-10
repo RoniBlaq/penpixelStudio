@@ -27,16 +27,21 @@ export default function Contact() {
  <h2 className="text-3xl font-serif">
 Book a Session
 </h2>
- <input name="name" type="text" className="w-full bg-transparent border border-white/20 p-3 rounded-lg" placeholder="Your Name" required /> 
+ <input name="name" type="text" className="w-full bg-transparent border border-white/20 p-3 rounded-lg cursor-pointer" placeholder="Your Name" required /> 
 
- <input name="email" type="email"  className="w-full bg-transparent border border-white/20 p-3 rounded-lg" placeholder="Email Address" required />
+ <input name="email" type="email"  className="w-full bg-transparent border border-white/20 p-3 rounded-lg cursor-pointer" placeholder="Email Address" required />
 
- <input name="phone" type="tel"  className="w-full bg-transparent border border-white/20 p-3 rounded-lg" placeholder="Phone No" required />
+ <input name="phone" type="tel"  className="w-full cursor-pointer bg-transparent border border-white/20 p-3 rounded-lg" placeholder="Phone No" required />
 
- <input name="session" type="text"  className="w-full bg-transparent border border-white/20 p-3 rounded-lg" placeholder="Session..eg Birthday shoot, wedding...." required />
+ <input name="session" type="text"  className="w-full bg-transparent border border-white/20 p-3 rounded-lg cursor-pointer" placeholder="Session..eg Birthday shoot, wedding...." required />
 
- <textarea name="message" className="w-full bg-transparent border border-white/20 p-3 rounded-lg" placeholder="Tell us about your event" required />
- <button type="submit"  className="w-full bg-white text-black py-3 rounded-full"> 
+ <textarea name="message" className="w-full bg-transparent border border-white/20 p-3 rounded-lg cursor-pointer" placeholder="Tell us about your event" required />
+ <button type="submit" className="w-50 bg-white ml-14 py-3 rounded-full cursor-pointer
+  bg-[url('/images/joanna.jpg')]
+ bg-cover
+ bg-center
+ bg-no-repeat
+ "> 
  Send Request </button>
  </form>
  </section>
