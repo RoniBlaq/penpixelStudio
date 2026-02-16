@@ -39,6 +39,11 @@ const galleryImages = [
 "/images/pixel22.png",
 "/images/pixel23.png",
 "/images/pixel24.png",
+"/images/pixel27.png",
+"/images/pixel28.png",
+"/images/pixel29.png",
+"/images/pixel30.png",
+
 ];
 
 export default function Explore() {

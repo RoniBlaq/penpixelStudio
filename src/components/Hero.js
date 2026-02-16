@@ -9,7 +9,6 @@ import Link from 'next/link'
   return (                                
 <section id="Hero-section" className="relative px-6 pt-24 lg:pt-28 pb-20 overflow-hidden">
   <div className="max-w-5xl mx-auto grid gap-16 lg:grid-col-2 items-center">
-
     {/* Left */}
     <motion.div
       initial={{ opacity: 0, y: 40 }}
@@ -26,7 +25,6 @@ import Link from 'next/link'
         We Create<br />
         <span className="">Visual Stories</span>
       </h1>
-
       <p className="mt-6 text-gray-400 max-w-md mx-auto lg:mx-0">
         Luxury wedding & lifestyle photography with emotion, elegance,
         and timeless storytelling.
@@ -49,8 +47,7 @@ import Link from 'next/link'
       whileInView={{ opacity: 1, scale: 1 }}
       viewport={{ once: true }}
       transition={{ duration: 1, ease: 'easeOut' }}
-      className=" relative h-[340px] sm:h-[360px] lg:h-[480px] rounded-[40px] sm:rounded-[120px] lg:rounded-[260px] overflow-hidden mx-auto w-full max-w-[320px] sm:max-w-[460px] lg:max-w-[560px]
-      "
+      className=" relative h-[340px] sm:h-[360px] lg:h-[480px] rounded-[40px] sm:rounded-[120px] lg:rounded-[260px] overflow-hidden mx-auto w-full max-w-[320px] sm:max-w-[460px] lg:max-w-[560px]"
     >
       <Image
         src="/images/pixel5.png"
@@ -66,7 +63,7 @@ import Link from 'next/link'
   {/* Desktop stats strip */}
   <div className=" flex flex-wrap justify-center md:justify-between gap-4 md:gap-5 lg:gap-10 mt-14 text-[10px] ">
 
- <div className=" flex items-center justify-between mt-14 w-[280px] sm:w-[380px] mx-auto">
+ <div className=" flex items-center justify-between mt-14 w-75 sm:w-85 mx-auto">
     <div>
       <p className="text-2xl font-serif text-white">80+</p>
       <p className="text-xs tracking-wider text-gray-400 uppercase">

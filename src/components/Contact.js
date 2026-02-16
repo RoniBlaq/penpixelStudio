@@ -33,7 +33,15 @@ Book a Session
 
  <input name="phone" type="tel"  className="w-full cursor-pointer bg-transparent border border-white/20 p-3 rounded-lg" placeholder="Phone No" required />
 
- <input name="session" type="text"  className="w-full bg-transparent border border-white/20 p-3 rounded-lg cursor-pointer" placeholder="Session..eg Birthday shoot, wedding...." required />
+<div className="relative">
+ <input name="session" list="sessions" type="text" className="w-full bg-transparent border border-white/20 p-3 rounded-lg cursor-pointer" placeholder="Session.." required />
+ <datalist id="sessions">
+    <option value="Birthday Shoot"/>
+     <option value="Wedding"/>
+      <option value="Portraits"/>
+       <option value="Others"/>
+ </datalist>
+</div>
 
  <textarea name="message" className="w-full bg-transparent border border-white/20 p-3 rounded-lg cursor-pointer" placeholder="Tell us about your event" required />
  <button type="submit" className="w-50 bg-white ml-14 py-3 rounded-full cursor-pointer

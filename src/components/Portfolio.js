@@ -34,10 +34,6 @@ export default function Portfolio() {
                 sizes="(max-width: 768px) 100vw, 33vw"
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
 
-                // placeholder="blur"
-
-                // blurDataURL="/images/blur.jpg"
-
               />
             </div>
             <p className="mt-6 text-center font-serif text-lg">

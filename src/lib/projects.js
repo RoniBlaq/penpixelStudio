@@ -22,6 +22,14 @@ export const projects = [
         slug: 'birthday-shoot',
          title: 'Birthday shoot',
         image:  '/images/portrait8.png',
+         description: 'Who says birthdays are just one day? With stunning photos, the memories last a lifetime. Let capture the magic.',
+    },
+
+     {
+        slug: 'business-branding',
+         title: 'Business Branding',
+        image:  '/images/pixel30.png',
+        description: 'Crafting stories, one frame at a time. Elevate your brand with photography that speaks louder than words.',
     },
 
 ]

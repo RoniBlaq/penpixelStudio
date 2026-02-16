@@ -54,8 +54,10 @@ export default function Navbar() {
                 </svg> 
     )}
  </button>
+ </div>
 {isMenuOpen && (
-    <ul className="md:hidden p-4 text-black bg-white flex flex-col space-y-2">
+   <div className="md:hidden p-6 text-black bg-white">
+    <ul className="flex flex-col space-y-2">
        <li className="hover:underline hover:text-amber-500 hover:decoration-amber-500 hover:decoration-2">
        <Link href="/">Home </Link>
         </li>
@@ -69,8 +71,8 @@ export default function Navbar() {
     <Link href="#Contact">Contact</Link>
     </li> 
     </ul>
+     </div> 
 )}
- </div> 
  </nav>
  ) 
 }

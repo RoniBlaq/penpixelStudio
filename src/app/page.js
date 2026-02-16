@@ -6,6 +6,7 @@ import Team from '@/components/Team'
  import Testimonials from '@/components/Testimonials'
  import Footer from '@/components/Footer'
 import Contact from '@/components/Contact'
+import Process from '@/components/Process'
  export default function Home() {
  return (
  <main 
@@ -28,9 +29,8 @@ bg-no-repeat
     <Portfolio />
      </div>
  </div>
-  
-
  <Service />
+ <Process/>
  <Team />
  <Contact/>
  <Testimonials />
