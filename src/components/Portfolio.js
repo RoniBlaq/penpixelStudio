@@ -8,8 +8,7 @@ export default function Portfolio() {
   return (
 
     <section className="relative py-32 px-6">
-    <div className=" insert-0 w-2/2 mx-auto
-">
+    <div className=" insert-0 w-2/2 mx-auto">
    
       <h3 className="text-center text-3xl font-serif mb-16">
         Featured Work

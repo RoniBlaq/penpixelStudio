@@ -39,10 +39,10 @@ const galleryImages = [
 "/images/pixel22.png",
 "/images/pixel23.png",
 "/images/pixel24.png",
-"/images/pixel27.png",
-"/images/pixel28.png",
-"/images/pixel29.png",
-"/images/pixel30.png",
+"/images/pixel27.PNG",
+"/images/pixel28.PNG",
+"/images/pixel29.PNG",
+"/images/pixel30.PNG",
 
 ];
 
