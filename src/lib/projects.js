@@ -26,9 +26,9 @@ export const projects = [
     },
 
      {
-        slug: 'business-branding',
-         title: 'Business Branding',
-        image:  '/images/pixel30.PNG',
+        slug: 'business-Branding',
+         title: 'Business branding',
+        image:'/images/pixel30.PNG',
         description: 'Crafting stories, one frame at a time. Elevate your brand with photography that speaks louder than words.',
     },
 

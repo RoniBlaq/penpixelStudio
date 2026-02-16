@@ -18,7 +18,8 @@ import { projects } from '../../../lib/projects'
  <h1 className="text-4xl md:text-5xl font-serif mb-10"> 
  {project.title}
  </h1> 
- <div className="relative h-[440px] max-w-[440px] mx-auto rounded-[220px] "> <Image
+ <div className="relative h-[440px] max-w-[440px] mx-auto rounded-[220px] "> 
+  <Image
  src={project.image} 
  alt={project.title}
  fill 

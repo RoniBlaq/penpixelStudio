@@ -44,12 +44,7 @@ Book a Session
 </div>
 
  <textarea name="message" className="w-full bg-transparent border border-white/20 p-3 rounded-lg cursor-pointer" placeholder="Tell us about your event" required />
- <button type="submit" className="w-50 bg-white ml-14 py-3 rounded-full cursor-pointer
-  bg-[url('/images/joanna.jpg')]
- bg-cover
- bg-center
- bg-no-repeat
- "> 
+ <button type="submit" className="w-50 bg-white ml-14 py-3 rounded-full cursor-pointer bg-[url('/images/joanna.jpg')] bg-cover bg-center bg-no-repeat"> 
  Send Request </button>
  </form>
  </section>
