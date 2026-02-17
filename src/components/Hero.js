@@ -47,12 +47,12 @@ import Link from 'next/link'
       whileInView={{ opacity: 1, scale: 1 }}
       viewport={{ once: true }}
       transition={{ duration: 1, ease: 'easeOut' }}
-      className=" relative h-[340px] sm:h-[360px] lg:h-[480px] rounded-[40px] sm:rounded-[120px] lg:rounded-[260px] overflow-hidden mx-auto w-full max-w-[320px] sm:max-w-[460px] lg:max-w-[560px]"
+      className=" relative h-[340px] sm:h-[360px] lg:h-[480px] rounded-[40px] sm:rounded-[120px] lg:rounded-[260px] overflow-hidden mx-auto w-full max-w-[300px] sm:max-w-[360px] lg:max-w-[460px]"
     >
       <Image
         src="/images/pixel34.JPG"
         alt="Hero photography"
-        fill
+        fill 
         priority
         className="object-cover"
       />
