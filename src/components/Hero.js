@@ -50,7 +50,7 @@ import Link from 'next/link'
       className=" relative h-[340px] sm:h-[360px] lg:h-[480px] rounded-[40px] sm:rounded-[120px] lg:rounded-[260px] overflow-hidden mx-auto w-full max-w-[320px] sm:max-w-[460px] lg:max-w-[560px]"
     >
       <Image
-        src="/images/pixel5.png"
+        src="/images/pixel34.JPG"
         alt="Hero photography"
         fill
         priority
